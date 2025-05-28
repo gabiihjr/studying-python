@@ -1,4 +1,6 @@
-﻿print("Hello World")
+﻿import math
+
+print("Hello World")
 print("*" * 10)
 # Python Enhancement Proposals: PEPs
 # Famous PEP: PEP 8 - Style Guide for Python Code https://www.python.org/dev/peps/
@@ -66,3 +68,33 @@ find = course.find("Pro")
 replace = course.replace("P", "J")
 print("Pro" in course)  # present in the string - boolean
 print("swift" not in course)  # not present in the string - boolean
+
+# number
+x = 1
+x = 1.1
+x = 1 + 2j  # a + bi
+
+x = 10
+x = x + 3
+x += 3
+
+# Working with numbers
+round_number = round(2.9)  # rounds to 3
+abs_number = abs(-2.9)  # returns the absolute value of a number
+math.ceil(2.2)  # ceiling of a number (3)
+
+# Type conversion
+x = input("x: ")  # get input from a user
+y = x + 1
+int(x)
+float(x)
+bool(x)
+str(x)
+type(x)
+
+y = int(x) + 1
+
+# Falsy
+# ""
+# 0
+# None
