@@ -13,3 +13,8 @@ message = "Eligible" if age >= 18 else "Not eligible"
 print(message)
 
 # if and (&&) or (||)
+
+# Chaining Comparison Operators
+# if age >= 18 and age < 65:
+if 18 <= age < 65:
+    print("Eligible")
