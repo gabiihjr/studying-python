@@ -41,3 +41,28 @@ print(three_first_char)
 
 copy_original_course = course[:]  # copy original string
 print(copy_original_course)
+
+# Escape Sequences
+# \"
+# \'
+# \\
+# \n - new line
+
+# Formatted Strings
+
+first_name = "Gabriela"
+last_name = "Hermenegildo"
+full_name = first_name + " " + last_name
+full_name_formatted_str = f"{first_name} {last_name}"
+print(full_name)
+print(full_name_formatted_str)
+
+# String methods
+upper_case = course.upper()
+lower_case = course.lower()
+capitalize = course.title()
+trim_whitespaces = course.strip()
+find = course.find("Pro")
+replace = course.replace("P", "J")
+print("Pro" in course)  # present in the string - boolean
+print("swift" not in course)  # not present in the string - boolean
